@@ -30,7 +30,7 @@ Para acompanhar as aulas e executar os projetos deste repositório, você precis
 Abaixo está a estrutura de módulos abordados durante o bootcamp:
 
 - [x] **Módulo 1: Fundamentos Avançados & Estruturas da Linguagem** (Modificadores de acesso, `final`, `static`, `equals()` vs `==`)
-- [ ] **Módulo 2: Programação Orientada a Objetos (POO)** (Encapsulamento, Herança, Composição, Polimorfismo, Classes Abstratas, Interfaces, Sobrescrita e Sobrecarga)
+- [ ] **Módulo 2: Estruturas e Funcionalidades** (Classe anônima, Lambdas, Streams, Filter,Interface Funcional, LocalDateTime, Optional, Collections, Set, List, Map e HashCode, Iterator, Switch)
 
 ---
 
@@ -41,6 +41,11 @@ Abaixo está a estrutura de módulos abordados durante o bootcamp:
 #### ⚖️ `equals()` vs `==`
 * **`equals()`**: Atuará sobre o objeto passado por parâmetro, comparando os valores das propriedades uma por uma. Retornará `true` se todas as propriedades tiverem o mesmo valor lógico.
 * **`==`**: Irá retornar `true` apenas se as duas referências apontarem para o **mesmo endereço de memória**, isto é, se forem exatamente a mesma instância.
+
+### Módulo 2: Funcionalidades
+
+#### Lambdas
+* **`Estrutura básica`**: (int a, int b) -> { return a + b} , as chaves só são obrigatórias se tiver mais de uma instrução.  
 
 ---
 
